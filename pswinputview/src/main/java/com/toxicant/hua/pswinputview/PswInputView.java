@@ -64,7 +64,7 @@ public class PswInputView extends View {
     /**
      * 初始化相关参数
      */
-    void init(AttributeSet atts){
+    void init(AttributeSet attrs){
         final float dp=getResources().getDisplayMetrics().density;
         this.setFocusable(true);
         this.setFocusableInTouchMode(true);
